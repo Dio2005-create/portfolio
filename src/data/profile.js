@@ -4,7 +4,7 @@ export const profile = {
   name: "Claudio Joash",
   title: "Développeur Full Stack",
   description: "Créateur de solutions web modernes et performantes. Spécialisé en React, Node.js et technologies cloud.",
-  image: "https://via.placeholder.com/150", // URL de votre photo
+  image: "/src/assets/profil.jpg", // URL de votre photo
   
   // CV
   cv: "https://exemple.com/cv.pdf", // Lien vers votre CV

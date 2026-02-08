@@ -17,12 +17,12 @@ export const Footer = ({ socials }) => {
       {/* Gradient Top Glow */}
       <div className="absolute inset-x-0 -top-1 h-[1px] bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
 
-      <div className="max-w-7xl mx-auto px-6 py-10">
+      <div className="max-w-7xl mx-auto px-6 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex flex-col md:flex-row justify-between items-center gap-10"
+          className="flex flex-col md:flex-row justify-between items-center gap-16"
         >
           {/* Brand */}
           <div>
@@ -62,10 +62,10 @@ export const Footer = ({ socials }) => {
         </motion.div>
 
         {/* Divider */}
-        <div className="my-8 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+        <div className="my-12 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
         {/* Bottom Signature */}
-        <div className="text-center text-xs text-gray-500">
+        <div className="text-center text-xs text-gray-500 pb-4">
           <p>
             Built with <span className="text-red-400">❤</span> using React, Tailwind & Framer Motion
           </p>
