@@ -1,10 +1,10 @@
 export const skills = [
-  { name: 'PHP', level: 90 },
-  { name: 'Laravel', level: 88 },
-  { name: 'Django', level: 84 },
-  { name: 'React', level: 92 },
-  { name: 'MySQL', level: 86 },
-  { name: 'PostgreSQL', level: 88 },
-  { name: 'Airbyte', level: 78 },
-  { name: 'dbt', level: 80 }
+  { name: 'JavaScript', level: 85 },
+  { name: 'React', level: 82 },
+  { name: 'HTML', level: 88 },
+  { name: 'CSS', level: 86 },
+  { name: 'Tailwind CSS', level: 84 },
+  { name: 'Gestion de projet', level: 80 },
+  { name: 'Analyse', level: 83 },
+  { name: 'Communication', level: 87 }
 ]

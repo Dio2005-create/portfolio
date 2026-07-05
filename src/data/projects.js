@@ -1,20 +1,20 @@
 export const projects = [
   {
-    title: 'Plateforme d\'orchestration data',
-    description: 'Déploiement d\'un pipeline Airbyte + dbt pour consolider et transformer les données clients en vue de rapports actionnables.',
-    tech: ['Airbyte', 'dbt', 'PostgreSQL', 'Python'],
-    label: 'Data Engineering'
-  },
-  {
-    title: 'Dashboard analytics SaaS',
-    description: 'Application React/Django offrant des tableaux de bord interactifs pour le suivi des KPIs marketing et produit.',
-    tech: ['React', 'Django', 'PostgreSQL', 'Tailwind CSS'],
-    label: 'Web App'
-  },
-  {
-    title: 'Portail e-commerce sur mesure',
-    description: 'Solution e-commerce sécurisée avec catalogue produit, gestion des commandes et espace client personnalisé.',
-    tech: ['Laravel', 'PHP', 'MySQL', 'REST API'],
+    title: 'Projet personnel de portfolio',
+    description: 'Création d’un portfolio moderne pour présenter mon profil, mes compétences et mes réalisations de façon professionnelle.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript'],
     label: 'Développement Web'
+  },
+  {
+    title: 'Applications orientées utilisateur',
+    description: 'Conception et développement d’interfaces simples, claires et accessibles pour améliorer l’expérience utilisateur.',
+    tech: ['HTML', 'CSS', 'React', 'UI/UX'],
+    label: 'Interface & Expérience'
+  },
+  {
+    title: 'Projets académiques et techniques',
+    description: 'Mise en pratique des concepts de gestion de projet, de développement et d’innovation dans des contextes éducatifs.',
+    tech: ['Méthodologie', 'Collaboration', 'Analyse', 'Développement'],
+    label: 'Formation & Innovation'
   }
 ]

@@ -1,17 +1,17 @@
 export const profile = {
-  name: 'Alexandre Durand',
-  title: 'Architecte logiciel / Ingénieur data senior',
-  subtitle: 'Je conçois des solutions numériques robustes et des architectures data prêtes pour la production.',
+  name: 'MASY RAKOTOMALALA Claudio Joash',
+  title: 'Étudiant en M1 à EMIT',
+  subtitle: 'Passionné par l’innovation, le développement et la création de solutions utiles.',
   summary:
-    'Expert en développement full stack et data engineering, j\'accompagne les organisations dans la conception de plateformes performantes, évolutives et maintenables. Je traduis les besoins métiers en applications concrètes et fiables.',
+    'Je suis MASY RAKOTOMALALA Claudio Joash, étudiant en M1 à EMIT (École de management et d\'innovation de Technologie). Je souhaite développer mes compétences, contribuer à des projets concrets et évoluer dans un environnement professionnel stimulant.',
   contact: {
-    email: 'contact@alexandredurand.dev',
-    github: 'https://github.com/alexandredurand',
-    linkedin: 'https://linkedin.com/in/alexandredurand'
+    email: 'joashclaudio@gmail.com',
+    github: 'https://github.com/',
+    linkedin: 'https://www.linkedin.com/'
   },
   stats: [
-    { label: 'Années d\'expérience', value: '8+' },
-    { label: 'Projets livrés', value: '45+' },
-    { label: 'Domaines', value: 'Web & Data' }
+    { label: 'Genre', value: 'Homme' },
+    { label: 'Date de naissance', value: '10 Mars 2005' },
+    { label: 'Formation', value: 'M1 à EMIT' }
   ]
 }

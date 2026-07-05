@@ -8,7 +8,7 @@ export default function Contact() {
           <p className="text-sm uppercase tracking-[0.3em] text-sky-400/80">Contact</p>
           <h2 className="text-3xl font-semibold text-white">Échangeons sur votre prochain projet</h2>
           <p className="max-w-xl text-slate-300 leading-7">
-            Je suis disponible pour des missions de développement web, d’architecture data ou de transformation digitale. Contactez-moi directement par email ou via mes profils professionnels.
+            Je suis {profile.name}, étudiant en M1 à EMIT, et je suis à l’écoute de collaborations, de projets de développement ou d’opportunités professionnelles. Contactez-moi directement par email ou via mes profils professionnels.
           </p>
           <div className="space-y-4 rounded-[28px] border border-slate-800/90 bg-slate-900/80 p-6">
             <p className="text-sm uppercase tracking-[0.3em] text-slate-400">Liens professionnels</p>
@@ -28,7 +28,7 @@ export default function Contact() {
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-slate-400">Coordonnées</p>
             <p className="mt-4 text-slate-300 leading-7">
-              Disponible pour des collaborations sur des applications métiers, des plateformes data, et des projets SaaS.
+              Ouvert aux projets académiques, aux collaborations techniques et aux opportunités de croissance professionnelle.
             </p>
           </div>
           <div className="space-y-4 rounded-2xl bg-slate-950/90 p-5 text-slate-300">
