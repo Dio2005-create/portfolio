@@ -12,9 +12,9 @@ export const projects = [
     label: 'Interface & Expérience'
   },
   {
-    title: 'Projets académiques et techniques',
-    description: 'Mise en pratique des concepts de gestion de projet, de développement et d’innovation dans des contextes éducatifs.',
-    tech: ['Méthodologie', 'Collaboration', 'Analyse', 'Développement'],
-    label: 'Formation & Innovation'
+    title: 'Projets techniques et collaboratifs',
+    description: 'NURA projet santé : https://github.com/NURA-HEALTH-ASSISTANT/nura-full. TousiStore projet frontend de page d’abonnement d’application du Tunisien : https://github.com/TounsiStoreOrg/TounsiStoreFrontend. ASM projet gestion de l’eau et des factures, relevés : https://github.com/Dio2005-create/asm.',
+    tech: ['Santé', 'Frontend', 'Gestion de l’eau', 'Factures'],
+    label: 'Projets réels'
   }
 ]
