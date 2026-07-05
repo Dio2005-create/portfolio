@@ -18,15 +18,24 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="rounded-[28px] border border-slate-800/90 bg-gradient-to-br from-slate-900 to-slate-950/95 p-8 shadow-soft">
-          <p className="text-sm uppercase tracking-[0.3em] text-sky-400/80">Faits clés</p>
-          <div className="mt-8 grid gap-4">
-            {profile.stats.map((item) => (
-              <div key={item.label} className="rounded-3xl bg-slate-950/90 p-5 text-slate-300">
-                <p className="text-sm uppercase tracking-[0.2em] text-slate-500">{item.label}</p>
-                <p className="mt-3 text-3xl font-semibold text-white">{item.value}</p>
-              </div>
-            ))}
+        <div className="space-y-6">
+          <div className="flex items-center justify-center rounded-[28px] border border-slate-800/90 bg-gradient-to-br from-slate-900 to-slate-950/95 p-6 shadow-soft">
+            <img
+              src="/src/assets/photo.png"
+              alt="Photo de MASY RAKOTOMALALA Claudio Joash"
+              className="h-56 w-56 rounded-full border border-slate-700/80 object-cover shadow-lg"
+            />
+          </div>
+          <div className="rounded-[28px] border border-slate-800/90 bg-gradient-to-br from-slate-900 to-slate-950/95 p-8 shadow-soft">
+            <p className="text-sm uppercase tracking-[0.3em] text-sky-400/80">Faits clés</p>
+            <div className="mt-8 grid gap-4">
+              {profile.stats.map((item) => (
+                <div key={item.label} className="rounded-3xl bg-slate-950/90 p-5 text-slate-300">
+                  <p className="text-sm uppercase tracking-[0.2em] text-slate-500">{item.label}</p>
+                  <p className="mt-3 text-3xl font-semibold text-white">{item.value}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

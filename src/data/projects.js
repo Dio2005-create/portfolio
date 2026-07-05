@@ -1,20 +1,23 @@
 export const projects = [
   {
-    title: 'Projet personnel de portfolio',
-    description: 'Création d’un portfolio moderne pour présenter mon profil, mes compétences et mes réalisations de façon professionnelle.',
-    tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript'],
-    label: 'Développement Web'
+    title: 'NURA – Projet santé',
+    description: 'Une application orientée santé visant à simplifier l’accompagnement des utilisateurs avec des services utiles et une expérience plus accessible.',
+    tech: ['Santé', 'React', 'UI/UX', 'Collaboration'],
+    label: 'Santé',
+    github: 'https://github.com/NURA-HEALTH-ASSISTANT/nura-full'
   },
   {
-    title: 'Applications orientées utilisateur',
-    description: 'Conception et développement d’interfaces simples, claires et accessibles pour améliorer l’expérience utilisateur.',
-    tech: ['HTML', 'CSS', 'React', 'UI/UX'],
-    label: 'Interface & Expérience'
+    title: 'TousiStore – Frontend abonnements',
+    description: 'Une interface moderne pour la page d’abonnement d’une application tunisienne, pensée pour une expérience utilisateur claire et fluide.',
+    tech: ['Frontend', 'Abonnement', 'React', 'Design'],
+    label: 'Frontend',
+    github: 'https://github.com/TounsiStoreOrg/TounsiStoreFrontend'
   },
   {
-    title: 'Projets techniques et collaboratifs',
-    description: 'NURA projet santé : https://github.com/NURA-HEALTH-ASSISTANT/nura-full. TousiStore projet frontend de page d’abonnement d’application du Tunisien : https://github.com/TounsiStoreOrg/TounsiStoreFrontend. ASM projet gestion de l’eau et des factures, relevés : https://github.com/Dio2005-create/asm.',
-    tech: ['Santé', 'Frontend', 'Gestion de l’eau', 'Factures'],
-    label: 'Projets réels'
+    title: 'ASM – Gestion de l’eau et factures',
+    description: 'Un projet de gestion de l’eau et des factures avec suivi des relevés, pensé pour faciliter la gestion quotidienne et l’organisation.',
+    tech: ['Gestion', 'Factures', 'Relevés', 'Application'],
+    label: 'Gestion',
+    github: 'https://github.com/Dio2005-create/asm'
   }
 ]

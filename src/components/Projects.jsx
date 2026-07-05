@@ -23,6 +23,14 @@ export default function Projects() {
                 </span>
               ))}
             </div>
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex items-center justify-center rounded-full bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-sky-300"
+            >
+              Voir sur GitHub
+            </a>
           </article>
         ))}
       </div>
