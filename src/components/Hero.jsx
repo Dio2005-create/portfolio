@@ -1,4 +1,5 @@
 import { profile } from '../data/profile'
+import photo from '../assets/photo.png'
 
 export default function Hero() {
   return (
@@ -21,7 +22,7 @@ export default function Hero() {
         <div className="space-y-6">
           <div className="flex items-center justify-center rounded-[28px] border border-sky-100 bg-gradient-to-br from-sky-50 to-white p-6 shadow-soft">
             <img
-              src="/src/assets/photo.png"
+              src={photo}
               alt="Photo de MASY RAKOTOMALALA Claudio Joash"
               className="h-56 w-56 rounded-full border border-slate-700/80 object-cover shadow-lg"
             />
