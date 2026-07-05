@@ -6,7 +6,7 @@ export const profile = {
     'Je suis MASY RAKOTOMALALA Claudio Joash, étudiant en M1 à EMIT (École de management et d\'innovation de Technologie). Je souhaite développer mes compétences, contribuer à des projets concrets et évoluer dans un environnement professionnel stimulant.',
   contact: {
     email: 'joashclaudio@gmail.com',
-    github: 'https://github.com/',
+    github: 'https://github.com/Dio2005-create',
     linkedin: 'https://www.linkedin.com/'
   },
   stats: [
